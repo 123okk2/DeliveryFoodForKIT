@@ -1,0 +1,100 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.header{
+    background-color: darkgrey;
+    padding:1.5rem;    
+    display: block;
+    clear: both;
+}
+.header::after{
+    content: '';
+    display:block;
+    clear:both;
+}
+.brand{    
+    float:left;
+    font-size: 1.5rem;
+    color:#fff;
+    font-weight: 900;
+}
+.login a{
+    text-decoration: none;
+    float:right;
+    padding: 1rem;
+    color: white;
+    border:1px solid #fff;
+}
+.membership a{
+    text-decoration: none;
+    float:right;
+    padding: 1rem;
+    color: white;
+    border:1px solid #fff;
+}
+.bottom{
+    background-color:#343a40;
+    padding:0.7rem; 
+    color: white;
+}
+.container{
+    margin: auto;
+    width:90%;
+    max-height: 1100px; 
+}
+.container::after{  
+    content: '';
+    display: block;
+    clear: both;
+}
+.navigation{
+    font-size: 1.5rem;
+    float: left;    
+}
+.navigation ul li:first-child{
+    padding: 60px 10px 10px 0px;
+}
+.navigation ul li{
+	margin-bottom: 10px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    color: black;
+}
+.navigation::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.grade{
+    float: right;
+    font-size: 1.5rem;
+    padding: 10px 8% 10px 10px;
+}
+.grade ul li{
+    padding: 50px 10px 10px 0px;
+	height:120px;
+	margin-bottom: 10px;
+}
+.footer{
+    background-color: darkgrey;
+    padding:1rem;  
+    margin: 5rem 0px 0px 0px;  
+    display: block;
+    clear: both;
+}
+.footer>ul>li{
+    padding: 0 1em;
+    border-right: 1.5px solid black;
+    display: inline-block;
+    margin: 10px 0px;
+}
+.footer>ul>li:last-child{
+    border-right:0px;
+}

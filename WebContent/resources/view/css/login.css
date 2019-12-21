@@ -1,0 +1,64 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.header{
+    background-color: darkgrey;
+    padding:1.5rem;    
+    display: block;
+    clear: both;
+}
+.header::after{
+    content: '';
+    display:block;
+    clear:both;
+}
+.brand{    
+    float:left;
+    font-size: 1.5rem;
+    color:#fff;
+    font-weight: 900;
+}
+.login a{
+    text-decoration: none;
+    float:right;
+    padding: 1rem;
+    color: white;
+    border:1px solid #fff;
+}
+.membership a{
+    text-decoration: none;
+    float:right;
+    padding: 1rem;
+    color: white;
+    border:1px solid #fff;
+}
+.bottom{
+    background-color:#343a40;
+    padding:0.7rem; 
+    color: white;
+}
+.input{
+    padding: 5rem;
+}
+.button{
+    padding: 3rem 0px 0px 20rem;
+}
+.footer{
+    background-color: darkgrey;
+    padding:1rem;  
+    margin: 5rem 0px 0px 0px;  
+    display: block;
+    clear: both;
+}
+.footer>ul>li{
+    padding: 0 1em;
+    border-right: 1.5px solid black;
+    display: inline-block;
+    margin: 10px 0px;
+}
+.footer>ul>li:last-child{
+    border-right:0px;
+}

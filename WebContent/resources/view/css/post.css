@@ -1,0 +1,164 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.header{
+    background-color: darkgrey;
+    padding:1.5rem;    
+    display: block;
+    clear: both;
+}
+.header::after{
+    content: '';
+    display:block;
+    clear:both;
+}
+.brand{    
+    float:left;
+    font-size: 1.5rem;
+    color:#fff;
+    font-weight: 900;
+}
+.login a{
+    text-decoration: none;
+    float:right;
+    padding: 1rem;
+    color: white;
+    border:1px solid #fff;
+}
+.membership a{
+    text-decoration: none;
+    float:right;
+    padding: 1rem;
+    color: white;
+    border:1px solid #fff;
+}
+.bottom{
+    background-color:#343a40;
+    padding:0.7rem; 
+    color: white;
+}
+.menu{
+    margin: auto;
+    width:90%;
+    max-height: 1100px; 
+}
+.menu::after{  
+    content: '';
+    display: block;
+    clear: both;
+}
+.navigation{
+    width: 40%;     
+}
+.navigation ul li{
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid black;
+    height: 4rem;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.navigation::after{
+        content: '';
+        display: block;
+        clear: both;
+}
+
+.section{
+    padding: 10px 10px 0px 10px;
+    width:40%;
+}
+.tables {
+	width:70%;
+	display:block;
+	clear:both;
+}
+table{
+    margin: 5% 10% 0% 10%;
+}
+#para{
+    margin: 1% 10% 0% 10%;
+    width: 70%;
+    height: 200px;
+}
+#para::after{  
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#delete{
+    padding: 2px 8px 2px 8px;
+    float: right;
+    margin: 1% 20% 0% 1%;
+}
+#change{
+    padding: 2px 8px 2px 8px;
+    float: right;
+    margin: 1% 0% 0% 1%;
+}
+#check{
+    padding: 3px 10px 3px 10px;
+    float: right;
+    margin: 1% 0% 0% 1%;
+}
+.footer{
+    background-color: darkgrey;
+    padding:1rem;  
+    margin: 5rem 0px 0px 0px;  
+    display: block;
+    clear: both;
+}
+.footer>ul>li{
+    padding: 0 1em;
+    border-right: 1.5px solid black;
+    display: inline-block;
+    margin: 10px 0px;
+}
+.comments {
+	width : 70%;
+}
+.comments table {
+    margin: 20% 10% 0% 10%;
+    text-align: center;
+    float: center;
+	width : 70%;
+    border-top: 1px solid #444444;
+    border-collapse: collapse;
+  }
+.comments table th, td {
+    border-bottom: 1px solid #444444;
+    padding: 10px;
+  }
+.comments table thead{
+      background-color:  rgba(233, 233, 233, 0.986);
+  }
+#para2{
+    margin: 1% 2% 0% 1%;
+    width: 85%;
+    height: 40px;
+}
+.comment{
+    margin: 1% 5% 0% 10%;
+    width: 70%;
+    height: 40px;
+}
+#cmRegister{
+    padding: 3px 10px 3px 10px;
+    float: right;
+    margin: 1.5% 0% 0% 1%;
+}
+#recommend{
+    padding: 3px 10px 3px 10px;
+    float: right;
+    margin: 1% 0% 0% 1%;
+}
+.footer>ul>li:last-child{
+    border-right:0px;
+}
